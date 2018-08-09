@@ -42,7 +42,7 @@ These steps should be done successfully.
 
 #### Workflow
 ```bash
-# Make some change to the codebase
+# Make some changes to the codebase
 git add changed/files
 git commit
 
