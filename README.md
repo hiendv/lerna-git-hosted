@@ -33,11 +33,16 @@ A: I wrote a script [mirror.sh](mirror.sh) to automate the process of splitting 
  }
 ```
 
-3. Bootstrap lerna
+3. Update `lerna.json`
+```json
++  "useGitVersion": true,
++  "gitVersionPrefix": "v"
+```
+
+4. Bootstrap lerna
 ```bash
 lerna clean --yes && lerna bootstrap --hoist
 ```
-
 These steps should be done successfully.
 
 #### Workflow
