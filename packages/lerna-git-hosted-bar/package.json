@@ -1,12 +1,12 @@
 {
   "name": "@hiendv/lerna-git-hosted-bar",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "main": "index.js",
   "author": "Hien Dao <hien.dv.neo@gmail.com>",
   "license": "MIT",
   "private": true,
   "repository": "git@github.com:hiendv/lerna-git-hosted-bar.git",
   "dependencies": {
-    "@hiendv/lerna-git-hosted-foo": "git+ssh://git@github.com:hiendv/lerna-git-hosted-foo.git#semver:^1.0.0"
+    "@hiendv/lerna-git-hosted-foo": "git+ssh://git@github.com/hiendv/lerna-git-hosted-foo.git#semver:^2.0.0"
   }
 }
