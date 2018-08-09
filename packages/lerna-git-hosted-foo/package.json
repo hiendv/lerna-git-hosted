@@ -1,6 +1,6 @@
 {
   "name": "@hiendv/lerna-git-hosted-foo",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "main": "index.js",
   "author": "Hien Dao <hien.dv.neo@gmail.com>",
   "license": "MIT",
