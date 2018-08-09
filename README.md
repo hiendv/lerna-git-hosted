@@ -11,7 +11,7 @@ A: Well, I find lerna useful but I can't afford to be a paid npm user for privat
 A: Yep, I'm in GitHub Student Developer Pack. But Bitbucket & Gitlab work just fine
 
 ### Q: Any problems?
-A: Yeah, kinda, self-hosted git instances. Because lerna depends on [hosted-git-info](https://www.npmjs.com/package/hosted-git-info), you won't be able to publish packages to your own self-hosted instance. See [this comment] https://github.com/npm/hosted-git-info/issues/27#issuecomment-400072894. So, meh :confused:
+A: Yeah, kinda, self-hosted git instances. Because lerna depends on [hosted-git-info](https://www.npmjs.com/package/hosted-git-info), you won't be able to publish packages to your own self-hosted instance. See [this comment](https://github.com/npm/hosted-git-info/issues/27#issuecomment-400072894). So, meh :confused:
 
 ### Q: So what should I do in that case?
 A: Deploy your own registry
@@ -54,4 +54,4 @@ lerna publish
 ```
 Versions should be updated correctly and mirrored repositories should contains new versions.
 
-[This repository](https://github.com/hiendv/lerna-git-hosted) is a monorepo with packages mirrored to [hiendv/lerna-git-hosted-foo](https://github.com/hiendv/lerna-git-hosted-foo) and [hiendv/lerna-git-hosted-bar](https://github.com/hiendv/lerna-git-hosted-bar). See for yourself, good luck!
+[This repository](https://github.com/hiendv/lerna-git-hosted) is a monorepo with packages mirrored to [hiendv/lerna-git-hosted-foo](https://github.com/hiendv/lerna-git-hosted-foo) and [hiendv/lerna-git-hosted-bar](https://github.com/hiendv/lerna-git-hosted-bar). If I make them private, you will never know them but it still works for me, that's the point of this. So, see for yourself, good luck!
